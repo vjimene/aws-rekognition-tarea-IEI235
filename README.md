@@ -1,4 +1,6 @@
 # Comparador de rostros
+## Autor
+Valerie Jiménez Meza (valerie.jimenez@sansano.usm.cl)  
 
 ## Descripción
 Este programa recibe dos imagenes, una por defecto de Luke Skywalker ("rostro.jpg") y otras encontradas en un bucket s3, y devuelve el porcentaje de similitud entre los rostros. Este programa recibe el nombre de un bucket s3. Este debe contener una imagen llamada "rostro.jpg" y cualquier otra imagen con la que hacer la comparación.  
