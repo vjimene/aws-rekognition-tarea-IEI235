@@ -32,11 +32,13 @@ python3 aws.py
 
 Una vez realizada alguna de las acciones anteriores el programa le pedirá ingresar el nombre del bucket en el que se encuentran las imagenes. Luego, el programa revisará y comparará con cada imagen encontrada en el bucket.
 
-##Pruebas
-Para este trabajo se realizó un conjunto de pruebas, realizado por Bárbara Uribe Cataldo (https://pruebas-de-software.ontestpad.com/script/2/report/HT?auth=1df2ba77c24de1e45b2af3c2f92798c3). En esta oportunidad se realizado dos tipos de pruebas, clases de equivalencia y valores límite.
+## Pruebas
+Para este trabajo se realizó un conjunto de pruebas cruzadas en conjunto con Bárbara Uribe Cataldo (https://pruebas-de-software.ontestpad.com/script/2/report/HT?auth=1df2ba77c24de1e45b2af3c2f92798c3). En esta oportunidad se realizado dos tipos de pruebas, clases de equivalencia y valores límite.
 Los criterios de aceptación fueron simples:
 1. Si en la imagen se encontraba Luke, se solicita un 97% o más de seguridad para considerar aceptada la prueba.
 2. Si en la imagen se encontraba una versión de Luke caricatura (dibujo, figura de acción u otro), se solicita no coincidencias para aceptar la prueba.
 3. Si en la imagen no se encuentra Luke, pero si personas parecidas (bajo criterio humano), se solicita menos de 30% de seguridad en la similitud para aceptar la prueba.
 4. Si en la imagen no se encuentra Luke ni nadie similar, se solicita que no hayan coincidencias para aceptar la prueba.
-5. Si en la imagen no se encuentra nada, se espera un error para aceptar la prueba.
+5. Si en la imagen no se encuentra nada, se espera un error para aceptar la prueba.   
+
+El conjunto de pruebas realizado al aplicativo de Bárbara Uribe Cataldo se encuentra en el siguiente link https://aws-usm.ontestpad.com/script/2/report/?auth=13f66e08450803bce654d631f3d6abb9
