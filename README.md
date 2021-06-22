@@ -3,7 +3,11 @@
 Valerie Jiménez Meza (valerie.jimenez@sansano.usm.cl)  
 
 ## Descripción
-Este programa recibe dos imagenes, una por defecto de Luke Skywalker ("rostro.jpg") y otras encontradas en un bucket s3, y devuelve el porcentaje de similitud entre los rostros. Este programa recibe el nombre de un bucket s3. Este debe contener una imagen llamada "rostro.jpg" y cualquier otra imagen con la que hacer la comparación.  
+Este programa recibe dos imagenes, una por defecto de Luke Skywalker ("rostro.jpg") y otras encontradas en un bucket s3, y devuelve el porcentaje de similitud entre los rostros. Como input recibe el nombre de un bucket s3 el cual debe contener una imagen llamada "rostro.jpg" y cualquier otra imagen con la que hacer la comparación.  El output entrega el número de coincidencias y el porcentaje de similitud.
+```sh
+nombre_imagen
+Face matches: numero_de_matches Porcentaje de similitud:  porcentaje
+```
 
 ## Tecnología
 - `Python3.9`
